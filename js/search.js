@@ -14,3 +14,14 @@ searchBox.addEventListener('keydown',(e)=>{
         window.open('https://www.facebook.com',"_self");
     }
 })
+
+searchBox.addEventListener('keydown',(e)=>{
+    if(searchBox.value=="w" && e.key=="p"){
+        window.open('https://web.whatsapp.com/',"_self");
+    }
+})
+searchBox.addEventListener('keydown',(e)=>{
+    if(searchBox.value=="g" && e.key=="g"){
+        window.open('https://google.com/',"_self");
+    }
+})
